@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(blue,lightblue,gold);
+  padding-bottom: 100px;
+}
+.box{
+  /* height: 200px;
+  width: 100px; */
+  background-color: aqua;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  grid-template-rows: repeat(3,280px);
+  gap: 20px;
+  justify-content: center;
+  /* align-content: center; */
+}
+#mi{
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#b5{
+  background-image: url(https://i.pinimg.com/564x/86/55/b3/8655b31db3d3be0039b0ff5e9da03ef8.jpg);
+  
+}
+#b1{
+  background-image: url(https://i.pinimg.com/564x/ec/2e/27/ec2e27d0bc8051f0678f6ce446f56b5e.jpg);
+}
+#b2{
+  background-image: url(https://staticg.sportskeeda.com/editor/2020/10/b19a5-16015341072500-800.jpg);
+}
+#b8{
+  background-image: url(https://i.pinimg.com/564x/16/7a/eb/167aeb15a0988222c1e2842cd6ab1f82.jpg);
+}
+#b3{
+  background-image: url(https://media.gettyimages.com/id/1252435116/photo/mumbai-indians-suryakumar-yadav-watches-the-ball-after-playing-a-shot-during-the-indian.jpg?s=612x612&w=0&k=20&c=KXvYznwtmRiMk-H4qDsrR4El_JxrwrdU6b4Hj-eTtcg=);
+}
+#b9{
+  background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/360600/360686.jpg);
+}
+#b4{
+  background-image: url(https://i.pinimg.com/564x/c1/67/07/c16707513a827a365ff3572374ceec7d.jpg);
+}
+#b6{
+  background-image: url(https://i.pinimg.com/564x/bc/9a/5a/bc9a5a3ecbf41344f3cf50fa3fccdbc8.jpg);
+}
+#b7{
+  background-image: url(https://i.pinimg.com/564x/5b/fc/74/5bfc74c0650ba822f06986ead6d61320.jpg);
+}
+.box{
+  background-size: 100% 100%;
+}
